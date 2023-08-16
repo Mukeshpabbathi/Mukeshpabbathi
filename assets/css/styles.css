@@ -602,6 +602,7 @@ body.dark-theme {
 }
 
 .projects__img {
+  height:200px;
   width: 250px;
   border-radius: .75rem;
   margin-bottom: 1.25rem;
@@ -615,6 +616,11 @@ body.dark-theme {
 .projects__title {
   max-width: 250px;
   font-size: var(--h2-font-size);
+  margin: .5rem 0 1.25rem;
+}
+.projects__desc{
+  max-width:250px;
+  font-size: var(--h5-font-size);
   margin: .5rem 0 1.25rem;
 }
 
